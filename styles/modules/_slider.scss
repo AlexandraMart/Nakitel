@@ -1,0 +1,30 @@
+.grey-bottom-dots .slick-dots li button:before {
+    background-image: url("../images/slider-section/dots.png");
+    background-repeat: no-repeat;
+    font-size: 0;
+    opacity: 1 !important;
+}
+.grey-bottom-dots .slick-dots li.slick-active button:before {
+    background-image: url(../images/slider-section/dots-hover.png);
+}
+.doors-slider {
+    margin-top: 60px;
+}
+.slick-slide img {
+    margin: 0 auto;
+}
+.door-header {
+    margin-bottom: 4px;
+    margin-top: 5px;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 107px;
+}
+.slick-dots {
+    bottom: -98px;
+}
+.slick-dots li {
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+}

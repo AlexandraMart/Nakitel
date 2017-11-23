@@ -1,0 +1,51 @@
+.footer {
+    background-image: url(../images/green-bottom.png);
+    background-position: bottom center;
+    padding-top: 222px;
+    margin-top: -222px;
+    padding-bottom: 25px;
+    @include breakpoint2 ($mobile, $x-mobile) {
+        background-position: top center;
+        padding-top: 100px;
+        margin-top: -100px;
+    }
+    .footer-bg {
+        background-image: url('../images/bottom-menu-back.png');
+        background-repeat: repeat-x;
+        @include breakpoint2 ($mobile, $x-mobile) {
+            background-size: cover;
+        }
+    }
+    .company-name {
+        font-family: 'HelveticaNeue';
+        font-size: 18px;
+        color: #ff6666;
+        padding-top: 11px;
+    }
+    .navbar-nav {
+        float: right;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        a {
+            font-family: 'HelveticaNeue';
+            font-size: 18px;
+            color: $white;
+            padding: 0;
+            padding-right: 28px;
+            @include breakpoint2 ($tablet) {
+                padding-right: 18px;
+            }
+        }
+        li {
+            &:last-child {
+                a {
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    .nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: transparent;
+    }
+}

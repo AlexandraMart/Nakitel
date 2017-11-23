@@ -1,0 +1,55 @@
+/*COLORS VARIABLES*/
+$white: #fff;
+$black: #000;
+$pr-text: #707070;
+$orange: #f15d22;
+$dark-orange: #c14a1b;
+$green: #b0c821;
+$green2: #a3be1f;
+$yellow: #f1b603;
+$dark-green: #605d0d;
+$dark-green2: #4b5417;
+$dark-red: #481c0a;
+$dark-blue: #003245;
+$dark-blue2: #014e6c;
+$red: #d64913;
+$blue: #009edb;
+$purple: #8057c8;
+$grey: #707070;
+$grey2: #e5e5e5;
+$toxic: #afc836;
+$purple: #e7268d;
+$dark-purple: #540d32;
+
+
+$font-size-base: 14;
+
+$fa-font-path: "../fonts/font-awesome" !default;
+
+// 16;
+$max-wrapper-width: 1920px;
+
+/*VARIABLES FOR RESPONSIVE*/
+//HD monitors
+$fhd-desktop: "(min-width: 1541px)" !default;
+$screen-fhd: 1540px !default;
+//Large-desktop Media Query
+$lg-desktop: "(min-width: 1200px) and (max-width: 1540px)" !default;
+// Desktop Media Query
+$desktop: "(min-width: 992px) and (max-width: 1199px)" !default;
+// Max desktop
+$max-desktop: "(max-width: 1199px)" !default;
+// Tablet Media Query
+$tablet: "(min-width: 768px) and (max-width: 991px)" !default;
+// Max tablet
+$max-tablet: "(max-width: 767px)" !default;
+// Mobile Media Query
+$mobile: "(min-width: 480px) and (max-width: 767px)" !default;
+// Max mobile
+$max-mobile: "(max-width: 479px)" !default;
+$x-mobile: "(max-width: 479px)" !default;
+
+// Landscape
+// Mobile
+$t-landscape: "(max-width: 1024px) and (max-height: 768px) and (orientation:landscape)" !default;
+$x-landscape: "(max-width: 767px) and (max-height: 480px) and (orientation:landscape)" !default;

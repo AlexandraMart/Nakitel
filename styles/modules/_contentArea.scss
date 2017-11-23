@@ -1,0 +1,242 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    @include breakpoint2 ($mobile, $x-mobile) {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}
+.login-wrapper {
+    font-family: 'HelveticaNeue';
+    color: $white;
+    text-shadow: 0px 1px 1px rgba(1,1,1,0.5);
+    line-height: 79%;
+    margin-top: 5px;
+    .login {
+        a {
+            font-size: 15px;
+            color: $white;
+            &:hover{
+            	text-decoration: none;
+            }
+        }
+    }
+    .register {
+        a {
+            font-size: 11px;
+            line-height: 100%;
+            border-bottom: 1px solid #fff;
+            display: inline-block;
+            width: auto;
+            line-height: 100%;
+            padding-bottom: 3px;
+            color: $white;
+            &:hover{
+            	text-decoration: none;
+            }
+        }
+    }
+}
+.call-master {
+    font-family: 'HelveticaNeueCyr-Bold',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: $white;
+}
+.nakitel-main-info {
+    padding-top: 31px;
+    line-height: 135%;
+    background-image: url('../images/header-back2.png'),url('../images/grey-pattern.png');
+    background-repeat: no-repeat,repeat;
+    background-position: top center;
+    padding-top: 31px;
+    line-height: 135%;
+    .social-icons {
+        margin-top: 5px;
+        margin-bottom: 7px;
+        .social-icon {
+            display: inline-block;
+            margin-right: 8px;
+            box-shadow: 0px 1px 3px 0px rgba(17,17,14,0.5);
+        }
+    }
+    .basket {
+        float: left;
+        padding: 8px 19px 5px 9px;
+        .basket-img {
+            margin-right: 27px;
+        }
+        .basket-info {
+            .basket-header {
+                font-family: 'HelveticaNeueCyr-Bold',sans-serif;
+                color: $white;
+                font-size: 20px;
+                text-shadow: 0px 1px 1px rgba(1,1,1,0.5);
+                margin-bottom: 8px;
+            }
+        }
+    }
+}
+.tel {
+    text-align: right;
+    text-shadow: 0px 1px 1px rgba(1,1,1,0.5);
+    font-family: "HelveticaNeueCyr-Light",sans-serif;
+    font-size: 18px;
+    color: $white;
+    @include breakpoint2 ($mobile, $x-mobile) {
+        text-align: left;
+        margin-top: 15px;
+    }
+    .number {
+        font-family: 'HelveticaNeueCyr-Medium';
+        font-size: 23px;
+    }
+}
+.call-master {
+    font-family: 'HelveticaNeueCyr-Bold',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: $white;
+    margin-top: 3px;
+    line-height: 78%;
+    text-align: right;
+    padding-top: 9px;
+    padding-right: 14px;
+    width: 200px;
+    float: right;
+    padding-bottom: 5px;
+    @include breakpoint2 ($mobile, $x-mobile) {
+        float: left;
+    }
+    .master {
+        font-size: 26px;
+    }
+}
+.grey-pattern {
+    background-image: url('../images/grey-pattern.png');
+    background-repeat: repeat;
+}
+.ad-img {
+    background-image: url('../images/central-img2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    h3 {
+        font-family: 'HelveticaNeueCyr-MediumItaicl',sans-serif;
+        font-size: 72px;
+        color: $white;
+        text-shadow: 0px 1px 4px rgba(1,1,1,0.78);
+        text-align: center;
+        padding: 134px 0;
+        margin-top: 0;
+    }
+}
+.header-info {
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 50px;
+    @include breakpoint2 ($mobile, $x-mobile) {
+        margin-top: 41px;
+        margin-bottom: 24px;
+    }
+}
+.about-company {
+    .vertical-menu {
+        @include breakpoint2 ($mobile, $x-mobile) {
+            margin-bottom: 15px;
+        }
+        .vertical-menu-links {
+            color: #006600;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-family: 'HelveticaNeue';
+            display: block;
+            margin-bottom: 9px;
+            @include breakpoint2 ($desktop) {
+                font-size: 14px;
+            }
+            &.active {
+                color: #cc0000;
+            }
+            &:hover {
+                text-decoration: none;
+                color: #cc0000;
+            }
+        }
+    }
+    .company-info {
+        border: 7px solid $white;
+        box-shadow: 0px 4px 10px 0px rgba(1,1,1,0.6);
+        background-image: url('../images/about-company-bg.png');
+        background-repeat: repeat;
+        padding: 23px 33px 32px 51px;
+        line-height: 120%;
+        margin-bottom: 94px;
+        @include breakpoint2 ($desktop) {
+            padding: 23px 10px 10px 25px;
+        }
+        @include breakpoint2 ($mobile, $x-mobile) {
+            padding: 23px 16px 15px 25px;
+            margin-bottom: 45px;
+        }
+        p {
+            color: #333333;
+            font-size: 18px;
+            font-family: "HelveticaNeueCyr-Light";
+            margin-bottom: 21px;
+        }
+    }
+    .call-master {
+        font-size: 30px;
+        width: 100%;
+        text-align: center;
+        padding-right: 0;
+        @include breakpoint2 ($desktop) {
+            font-size: 25px;
+        }
+        .master {
+            font-size: 21px;
+            @include breakpoint2 ($desktop) {
+                font-size: 18px;
+            }
+        }
+    }
+    .banner {
+        background-image: url('../images/strips-bg.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-transform: uppercase;
+        width: 100%;
+        font-family: 'BebasNeue-Bold',sans-serif;
+        font-weight: bold;
+        color: $white;
+        font-size: 42px;
+        text-shadow: 0px 1px 2px rgba(16,16,15,0.5);
+        margin-top: 52px;
+        text-align: center;
+        padding-top: 22px;
+        line-height: 100%;
+        padding-bottom: 15px;
+        margin-bottom: 43px;
+        box-shadow: 0px 2px 5px 0px rgba(1,1,1,0.5);
+        @include breakpoint2 ($desktop) {
+            font-size: 35px;
+        }
+    }
+    .contacts {
+        .tel {
+            font-size: 15px;
+            color: #333333;
+            text-shadow: none;
+            line-height: 135%;
+            .number {
+                font-size: 19px;
+                @include breakpoint2 ($desktop) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
